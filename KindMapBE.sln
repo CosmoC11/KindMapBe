@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KindMapBE", "KindMapBE.csproj", "{2A8128C5-E944-C9EA-2239-7DCE67C269BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A8128C5-E944-C9EA-2239-7DCE67C269BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8128C5-E944-C9EA-2239-7DCE67C269BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8128C5-E944-C9EA-2239-7DCE67C269BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8128C5-E944-C9EA-2239-7DCE67C269BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8901DF00-9235-4BEF-88F7-5CC30DA99B9A}
+	EndGlobalSection
+EndGlobal
