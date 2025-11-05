@@ -15,7 +15,7 @@ namespace KindMap.Models.Entities
 
         // Navigation properties ?
         public Role Role { get; set; } = null!;
-        // public ICollection<HelpPoint> HelpPoints { get; set; } = new List<HelpPoint>();
+        public ICollection<HelpPoint> HelpPoints { get; set; } = new List<HelpPoint>();
 
     }
 }
