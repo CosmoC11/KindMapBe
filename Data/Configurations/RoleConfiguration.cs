@@ -14,8 +14,12 @@ namespace KindMap.API.Data.Configurations
             builder.Property(e => e.Name)
                 .HasMaxLength(50)
                 .IsRequired();
-            
+
             builder.HasIndex(e => e.Name).IsUnique();
+
+
+            // Seed data with STATIC datetime
+            //var seedDate = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc);
             
             // Seed data
             builder.HasData(

@@ -2,7 +2,7 @@ namespace KindMap.Models.Entities
 {
     public class Report
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } 
         public Guid ReportedBy { get; set; }
         public string EntityType { get; set; } = null!;
         public Guid EntityId { get; set; }
@@ -11,7 +11,7 @@ namespace KindMap.Models.Entities
         public string Status { get; set; } = "pending";
         public Guid? ReviewedBy { get; set; }
         public DateTime? ReviewedAt { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } 
         
         // Navigation properties
         public User Reporter { get; set; } = null!;

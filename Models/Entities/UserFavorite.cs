@@ -4,7 +4,7 @@ namespace KindMap.Models.Entities
     {
         public Guid UserId { get; set; }
         public Guid HelpPointId { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } 
         
         // Navigation properties
         public User User { get; set; } = null!;

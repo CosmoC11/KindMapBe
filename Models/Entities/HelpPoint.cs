@@ -4,7 +4,7 @@ namespace KindMap.Models.Entities
 {
     public class HelpPoint
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } 
         public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
         public string Category { get; set; } = null!;
@@ -30,8 +30,8 @@ namespace KindMap.Models.Entities
         // Metadata
         public int ViewCount { get; set; } = 0;
         public int HelpCount { get; set; } = 0;
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } 
+        public DateTime UpdatedAt { get; set; } 
         public DateTime? ResolvedAt { get; set; }
         public DateTime? ExpiresAt { get; set; }
         
